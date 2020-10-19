@@ -52,3 +52,48 @@
     margin-left: 12px;
     order: 3;
 }
+#basket-main{
+    display: flex;
+    order: 4;
+}
+
+#basket-txt {
+    order: 1;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 48px 8px 32px 106px;
+}
+
+#basket {
+    order: 2;
+    box-sizing: border-box;
+    margin: 44px 1px 28px 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Rectangle {
+    order: 2;
+    font-family: 'Montserrat', sans-serif;
+     width: 20px;
+     height: 20px;
+     border-radius: 12px;
+     background-color: #ef5b5b;
+    margin: 36px 56px 48px 1px;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+#amount {
+    order: 4;
+    width: 13px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}

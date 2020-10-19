@@ -9,6 +9,8 @@
     width: 1440px;
     height: 104px;
     align-items: center;
+    margin: 0;
+    padding: 0;
 
 }
 .nav-main{
@@ -53,6 +55,7 @@
     order: 3;
 }
 #basket-main{
+
     display: flex;
     order: 4;
 }
@@ -61,17 +64,19 @@
     order: 1;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    margin: 48px 8px 32px 106px;
+    margin: 48px 8px 32px 106px ;
 }
 
 #basket {
+    position: relative;
     order: 2;
     box-sizing: border-box;
     margin: 44px 1px 28px 8px;
     padding: 0;
-    box-sizing: border-box;
+    z-index: 1;
 }
 #Rectangle {
+    position: relative;
     order: 2;
     font-family: 'Montserrat', sans-serif;
      width: 20px;
@@ -81,7 +86,8 @@
     margin: 36px 56px 48px 1px;
     padding: 0;
     box-sizing: border-box;
-
+    z-index: 2;
+    left: -15px;
  }
 #amount {
     order: 4;
@@ -96,4 +102,5 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    padding: 0 0 0 2px;
 }

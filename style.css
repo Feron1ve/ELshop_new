@@ -6,12 +6,11 @@
 #head-div{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 1440px;
     height: 104px;
-    align-items: center;
     margin: 0;
     padding: 0;
-
 }
 .nav-main{
     width: 1440px;
@@ -29,12 +28,14 @@
     border: 1px solid rgb(0 127 255) ;
     border-radius: 2px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 #first-input {
     height: 24px;
     width: 696px;
     flex: content-box;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 #logo{
@@ -44,6 +45,7 @@
     order: 1;
     flex: content-box;
     align-items: flex-start;
+    cursor: pointer;
 }
 .button {
     height: 40px;
@@ -58,6 +60,7 @@
 
     display: flex;
     order: 4;
+    cursor: pointer;
 }
 
 #basket-txt {
@@ -68,6 +71,8 @@
 }
 
 #basket {
+    width: 32px;
+    height: 32px;
     position: relative;
     order: 2;
     box-sizing: border-box;
@@ -104,3 +109,47 @@
     color: #ffffff;
     padding: 0 0 0 2px;
 }
+.button {
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#but1 {
+    background: #007fff ;
+    position: relative;
+    cursor: pointer;
+    width: 212px;
+    height: 56px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#but1:hover{
+    background: antiquewhite;
+}
+#but2 {
+    background: #00487c ;
+    position: relative;
+    cursor: pointer;
+    width: 112px;
+    height: 56px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#but2:hover{
+    background: antiquewhite;
+}
+ button:focus, button:active{
+     outline: none;
+}
+ button:hover {
+     background: antiquewhite;
+ }

@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4365afcd-e1d0-45d5-90b3-bf022b94f297" name="Default Changelist" comment="New">
+      <change afterPath="$PROJECT_DIR$/remove_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -28,6 +29,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -51,13 +59,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +85,8 @@
       <workItem from="1602519833520" duration="175000" />
       <workItem from="1602690384810" duration="96000" />
       <workItem from="1602690495020" duration="4550000" />
-      <workItem from="1603123295120" duration="2942000" />
+      <workItem from="1603123295120" duration="3090000" />
+      <workItem from="1603386224020" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1602694973200</created>
@@ -92,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603125548242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new123">
+      <created>1603126360202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603126360202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,25 +131,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="new123" />
+    <option name="LAST_COMMIT_MESSAGE" value="new123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="836" y="422" key="Github.ShareDialog" timestamp="1602694830721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="836" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602694830721" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602691854029">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603387106146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602691854029" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603125551805">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603387106146" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603126363049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603125551805" />
-    <state x="188" y="55" width="583" height="936" key="find.popup" timestamp="1603126046168">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603126363049" />
+    <state x="188" y="55" width="583" height="936" key="find.popup" timestamp="1603387214821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="188" y="55" width="583" height="936" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603126046168" />
+    <state x="188" y="55" width="583" height="936" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603387214821" />
     <state x="121" y="253" width="700" height="530" key="recent.locations.popup" timestamp="1603125131136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

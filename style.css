@@ -144,12 +144,62 @@ ul{
     margin: 0;
     padding: 0;
 }
-#but2:hover{
-    background: antiquewhite;
+#but1:hover{
+    background: #0073ff;
 }
- button:focus, button:active{
+#but2:hover{
+    background: #00557c;
+}
+#but3,#but4,#but5  {
+    background: #f2f2f2 ;
+    position: relative;
+    cursor: pointer;
+    width: 212px;
+    height: 56px;
+    border: none;
+    color: #002844;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#but3:hover {
+    background: #a5a7a9;
+}
+#but4:hover {
+    background: #a5a7a9;
+}
+#but5:hover {
+    background: #a5a7a9;
+}
+
+button:focus, button:active{
      outline: none;
 }
- button:hover {
-     background: antiquewhite;
+.banner {
+    display: flex
+}
+
+#ban1{
+
+    height: 431px;
+    width: 544px;
+    background-image: url("Banner 1");
+}
+#ban2{
+    height: 431px;
+    width: 432px;
+    background-image: url("Banner 2.jpg");
+}
+#ban3{
+    height: 208px;
+    width: 320px;
+    flex-flow: column wrap;
+    background-image: url("Banner 3.jpg");
  }
+#ban4{
+    height: 208px;
+    width: 320px;
+    background-image: url("Banner 4.jpg");
+    flex-flow: column wrap;
+}

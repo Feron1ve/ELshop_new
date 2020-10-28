@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4365afcd-e1d0-45d5-90b3-bf022b94f297" name="Default Changelist" comment="New">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,7 +87,8 @@
       <workItem from="1603123295120" duration="3090000" />
       <workItem from="1603386224020" duration="2673000" />
       <workItem from="1603728274670" duration="2441000" />
-      <workItem from="1603901483053" duration="884000" />
+      <workItem from="1603901483053" duration="1716000" />
+      <workItem from="1603903356650" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1602694973200</created>
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603730690990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new">
+      <created>1603902603606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603902603606</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,12 +160,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New" />
-    <MESSAGE value="new" />
     <MESSAGE value="new123" />
     <MESSAGE value="Second" />
     <MESSAGE value="Second 21" />
     <MESSAGE value="12354" />
-    <option name="LAST_COMMIT_MESSAGE" value="12354" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="836" y="422" key="Github.ShareDialog" timestamp="1602694830721">
@@ -168,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603387106146" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603730692712">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603902609718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603730692712" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603902609718" />
     <state x="188" y="55" width="583" height="936" key="find.popup" timestamp="1603387214821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -177,29 +177,25 @@ button:focus, button:active{
      outline: none;
 }
 .banner {
-    display: flex
+    display: flex;
 }
-
-#ban1{
-
-    height: 431px;
+#ban1 {
     width: 544px;
-    background-image: url("Banner 1");
-}
-#ban2{
     height: 431px;
-    width: 432px;
-    background-image: url("Banner 2.jpg");
 }
-#ban3{
-    height: 208px;
+#ban2 {
+    width: 432px;
+    height: 432px;
+}
+#ban3 {
     width: 320px;
-    flex-flow: column wrap;
-    background-image: url("Banner 3.jpg");
- }
-#ban4{
     height: 208px;
+}
+#ban4 {
     width: 320px;
-    background-image: url("Banner 4.jpg");
-    flex-flow: column wrap;
+    height: 208px;
+}
+.banner-col{
+    display: flex;
+    flex-direction: column;
 }

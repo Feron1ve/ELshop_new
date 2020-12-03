@@ -25,7 +25,6 @@
     justify-content: center;
     align-items: center;
     order: 2;
-    padding: 12px 16px 12px 16px;
     border: 1px solid rgb(0 127 255) ;
     border-radius: 2px;
     box-sizing: border-box;
@@ -199,4 +198,102 @@ button:focus, button:active{
 .banner-col{
     display: flex;
     flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    height: 431px;
+    margin: 20px 20px 20px 56px;
+    position: absolute;
+    width: 544px;
+
+}
+
+.wrap > input {
+    display: none;
+}
+
+.slider {
+    display: flex;
+    order: 1;
+    background-color: #333333;
+    height: inherit;
+    overflow: hidden;
+    position: fixed;
+    width: inherit;
+}
+.slides {
+    order: 1;
+    display: flex;
+    height: inherit;
+    opacity: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 0;
+    transform: rotate(0deg);
+    -webkit-filter: blur(100px);
+    transition: 1s;
+}
+.img1 { background-image: url(lion.jpg);}
+.img2 { background-image: url(tiger.jpg); }
+.img3 { background-image: url(pantera.jpg); }
+
+.wrap .control {
+    position: absolute;
+    margin-left: -50px;
+    left: 50%;
+}
+.wrap label {
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 10px;
+    position: relative;
+    width: 8px;
+    border-radius: 20%;
+}
+.wrap label:after {
+    border: 2px solid #00487b;
+    content: " ";
+    display: block;
+    height: 12px;
+    left: -4px;
+    position: absolute;
+    top: -4px;
+    width: 12px;
+    border-radius: 20%;
+}
+
+#point1:checked ~ .control label:nth-of-type(1),
+#point2:checked ~ .control label:nth-of-type(2),
+#point3:checked ~ .control label:nth-of-type(3) {
+    background: #007efd;
+}
+#point1:checked ~ .slider > .img1,
+#point2:checked ~ .slider > .img2,
+#point3:checked ~ .slider > .img3 {
+    opacity: 1;
+    z-index: 1;
+    transform: none;
+    -webkit-filter: none;
+}
+
+.pic {
+    display: flex;
+    position: relative;
+    order: 2;
+}
+.banner-col{
+    display: flex;
+    position: relative;
+    order: 3;
 }

@@ -28,23 +28,43 @@
     </div>
     <nav class="nav-main">
         <ul>
+
             <button class="button" id="but1"> Каталог </button>
             <button class="button" id="but2"> Акции </button>
-            <button class="button" id="but3"> Услуги </button>
-            <button class="button" id="but4"> О нас </button>
-            <button class="button" id="but5"> Отзывы</button>
+            <a href="Yslugi.html"> <button class="button" id="but3" > Услуги </button> </a>
+            <a href="abous.html"> <button class="button" id="but4"> О нас </button>  </a>
+            <a href="o-kompanii.html"> <button class="button" id="but5"> Отзывы</button> </a>
             <img src="27-icon-percent.svg">
             <img src="27-icon-chevron-down.svg">
         </ul>
     </nav>
-    <div class="banner">
-    <img id="ban1" src="Banner%201">
-        <img id="ban2" src="Banner%202.jpg">
-        <div class="banner-col">
-     <img id="ban3" src="Banner%203.jpg">
-        <img id="ban4" src="Banner%204.jpg">
+    <div class="wrap">
+        <input type="radio" name="slides" id="point1" checked>
+        <input type="radio" name="slides" id="point2">
+        <input type="radio" name="slides" id="point3">
+
+        <div class="slider">
+            <div class="slides img1"></div>
+            <div class="slides img2"></div>
+            <div class="slides img3"></div>
         </div>
+        <div class="control">
+            <label for="point1"></label>
+            <label for="point2"></label>
+            <label for="point3"></label>
+        </div>
+        <div class="pic">
+        <img id="ban2" src="Banner%202.jpg">
+        </div>
+        <div class="banner-col">
+            <img id="ban3" src="Banner%203.jpg">
+            <img id="ban4" src="Banner%204.jpg">
+        </div>
+
     </div>
+
+
+
 </header>
 </body>
 </html>

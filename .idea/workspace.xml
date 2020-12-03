@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4365afcd-e1d0-45d5-90b3-bf022b94f297" name="Default Changelist" comment="New">
+      <change afterPath="$PROJECT_DIR$/Otzivi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yslugi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abous.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pantera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiger.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remove_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/remove_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,7 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +98,14 @@
       <workItem from="1603386224020" duration="2673000" />
       <workItem from="1603728274670" duration="2441000" />
       <workItem from="1603901483053" duration="1716000" />
-      <workItem from="1603903356650" duration="830000" />
+      <workItem from="1603903356650" duration="1750000" />
+      <workItem from="1604938497231" duration="633000" />
+      <workItem from="1605110744971" duration="1189000" />
+      <workItem from="1605545224158" duration="1523000" />
+      <workItem from="1605802765227" duration="1760000" />
+      <workItem from="1606753431712" duration="252000" />
+      <workItem from="1607011471423" duration="1716000" />
+      <workItem from="1607013223374" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="New">
       <created>1602694973200</created>
@@ -139,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603902603606</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new1">
+      <created>1603904641341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603904641341</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,25 +189,38 @@
     <MESSAGE value="Second 21" />
     <MESSAGE value="12354" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="new1" />
+    <option name="LAST_COMMIT_MESSAGE" value="new1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="113" y="199" key="#Inspections" timestamp="1607013796382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="113" y="199" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607013796382" />
+    <state x="250" y="313" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605803620090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="313" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605803620090" />
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605803590143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605803590143" />
     <state x="836" y="422" key="Github.ShareDialog" timestamp="1602694830721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="836" y="422" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602694830721" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1603387106146">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1607012604218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603387106146" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603902609718">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607012604218" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603904644466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603902609718" />
-    <state x="188" y="55" width="583" height="936" key="find.popup" timestamp="1603387214821">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603904644466" />
+    <state x="188" y="55" width="583" height="936" key="find.popup" timestamp="1607014089948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="188" y="55" width="583" height="936" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603387214821" />
+    <state x="188" y="55" width="583" height="936" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607014089948" />
     <state x="121" y="253" width="700" height="530" key="recent.locations.popup" timestamp="1603125131136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

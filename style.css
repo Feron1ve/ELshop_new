@@ -1,3 +1,8 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .head-main {
     width: 1440px;
     height: 160px;
@@ -84,16 +89,16 @@
     position: relative;
     order: 2;
     font-family: 'Montserrat', sans-serif;
-     width: 20px;
-     height: 20px;
-     border-radius: 12px;
-     background-color: #ef5b5b;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #ef5b5b;
     margin: 36px 56px 48px 1px;
     padding: 0;
     box-sizing: border-box;
     z-index: 2;
     left: -15px;
- }
+}
 #amount {
     order: 4;
     width: 13px;
@@ -174,7 +179,7 @@ ul{
 }
 
 button:focus, button:active{
-     outline: none;
+    outline: none;
 }
 .banner {
     display: flex;
@@ -183,9 +188,13 @@ button:focus, button:active{
     width: 544px;
     height: 431px;
 }
+#ban1 > input{
+    display: none;
+}
 #ban2 {
     width: 432px;
     height: 432px;
+    margin: 0 16px 0 16px;
 }
 #ban3 {
     width: 320px;
@@ -194,6 +203,7 @@ button:focus, button:active{
 #ban4 {
     width: 320px;
     height: 208px;
+    margin-top: 16px;
 }
 .banner-col{
     display: flex;
@@ -228,7 +238,7 @@ button:focus, button:active{
     background-color: #333333;
     height: inherit;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     width: inherit;
 }
 .slides {
@@ -243,12 +253,12 @@ button:focus, button:active{
     -webkit-filter: blur(100px);
     transition: 1s;
 }
-.img1 { background-image: url(lion.jpg);}
-.img2 { background-image: url(tiger.jpg); }
-.img3 { background-image: url(pantera.jpg); }
+.img1 { background-image: url(lion.jpg); background-repeat: round;}
+.img2 { background-image: url(tiger.jpg);background-repeat: round; }
+.img3 { background-image: url(pantera.jpg);background-repeat: round; }
 
 .wrap .control {
-    position: absolute;
+    position: relative;
     margin-left: -50px;
     left: 50%;
 }
@@ -267,7 +277,7 @@ button:focus, button:active{
     display: block;
     height: 12px;
     left: -4px;
-    position: absolute;
+    position: relative;
     top: -4px;
     width: 12px;
     border-radius: 20%;
